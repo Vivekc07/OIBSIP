@@ -1,0 +1,91 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	top: 20px;
+	/*position: relative;*/
+	border-radius: 20px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#forpadding{
+	height: 1PX;
+	
+	
+}
+
+#result{
+	height: 85px;
+	margin: 18px 10PX 10PX 10PX;
+	border-radius: 10px;
+	background-color: CYAN
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0PX 20px 0px 20px;
+	padding-top: 1px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{ 
+	text-align: right;
+	height: 50px;
+	width: 290PX;
+	margin: 0px 10px,20PX,50PX;
+	padding-bottom: 10px; 
+	font-size: 30px;
+}
+
+#keyboard{
+	height: 400px;
+}
+.operator, .number{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number{
+	background-color: #eaedef;
+	box-shadow: 3px 3px;
+	border-radius: 5px;
+}
+.number, .operator{
+	cursor: pointer;
+	box-shadow: 3px 3px;
+	border-radius: 5px;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+	box-shadow: 3px 3px;
+	border-radius: 5px;
+}
+.operator:focus, .number:focus{
+	outline: 0;
+	box-shadow: 3px 3px;
+	border-radius: 5px;
+}
+
+.EQUAL{
+	width: 210px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+	background-color:#4285F4;
+	box-shadow: 3px 3px;
+	border-radius: 5px;
+}
